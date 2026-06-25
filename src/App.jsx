@@ -5,6 +5,7 @@ function App() {
 
   return (
     <>
+      <h1>Vaccination.ng</h1>
       <Nav
         logo={"Vaccination.ng"}
         items={[
