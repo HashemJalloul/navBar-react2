@@ -1,12 +1,13 @@
 import './App.css'
-import Nav from './components/Nav/Nav'
+import Effect from './components/Effect/Effect'
+// import Nav from './components/Nav/Nav'
 
 function App() {
 
   return (
     <>
-      <h1>Vaccination.ng</h1>
-      <Nav
+      <Effect />
+      {/* <Nav
         logo={"Vaccination.ng"}
         items={[
           { link: '#', content: 'Home' },
@@ -14,7 +15,7 @@ function App() {
           { link: '#Schedule', content: 'Schedule' },
           { link: '#FeedBack', content: 'FeedBack' },]}
         btn={'Check Status'}
-      />
+      /> */}
     </>
   )
 }
