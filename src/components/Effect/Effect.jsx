@@ -7,8 +7,13 @@ const Effect = () => {
 
     useEffect(() => { console.log(count, show) }, [count, show])
 
+    useEffect(() => {
+        const refContainer = document.getElementById('refContainer')
+        console.log(refContainer);
+    }, [show])
+
     return (
-        <div>
+        <div id="refContainer">
             <p>You clicked {count} times</p>
             <button onClick={() => setcount(count + 1)}>
                 Click me

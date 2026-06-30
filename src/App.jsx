@@ -1,12 +1,14 @@
 import './App.css'
-import Effect from './components/Effect/Effect'
+// import Effect from './components/Effect/Effect'
+import Ref from './components/Ref/Ref'
 // import Nav from './components/Nav/Nav'
 
 function App() {
 
   return (
     <>
-      <Effect />
+      {/* <Effect /> */}
+      <Ref />
       {/* <Nav
         logo={"Vaccination.ng"}
         items={[
